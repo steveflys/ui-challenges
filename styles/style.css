@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#panel {
+    background-color: silver;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 6px;
+    width: 340px;
+    z-index: 1;
+    position: absolute;
+}
+
+#display {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    margin: 4px;
+    padding: 17px;
+    z-index: 2;
+    position: relative;
+}
+
+#floor-number {
+    color: white;
+    font-size: 140px;
+    float: left;
+    z-index: 3;
+    padding: 20px;
+}
+
+.motion {
+    width: 40px;
+    height: 40px;
+    float: right;
+    z-index: 3;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+}
+
+#up {
+    background-color: green;
+}
+
+#down {
+    background-color: red;
+}
+
+#floors {
+    width: 280px;
+    height: 180px;
+    z-index: 2;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid black;
+    border-radius: 60%;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+}
+
+#third {
+    float: left;
+    margin-right: 60px;
+}
+
+#tfirst {
+    float: left;
+    margin-right: 60px;
+}
+#fourth {
+    float: right;
+    margin-right: 0px;
+}
+
+#second {
+    float: right;
+    margin-right: 0px;
+}
