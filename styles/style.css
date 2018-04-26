@@ -1,85 +1,90 @@
 body {
-    height: 800px;
-    display: inline-block;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
 
 #panel {
-    width: 500px;
-    height: 725px;
     background-color: silver;
-    border: 4px solid black;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 6px;
+    width: 340px;
+    z-index: 1;
+    position: absolute;
 }
 
 #display {
-    width: 420px;
-    height: 350px;
-    display: inline-block;
-    margin: 38px;
-    position: relative;
     background-color: black;
-    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 17px;
+    padding: 17px;
+    z-index: 2;
+    position: relative;
 }
 
 #floor-number {
-    height: 400px;
-    width: 230px;
-    padding-top: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 170px;
-}
-p {
-    text-align: center;
+    color: white;
+    font-size: 140px;
+    float: left;
+    z-index: 3;
+    padding: 20px;
 }
 
-#motion {
-    width: 200px;
+.motion {
+    width: 40px;
+    height: 40px;
+    float: right;
+    z-index: 3;
+    padding: 15px;
+    margin: 10px;
+    display: block;
 }
 
 #up {
-    width: 50px;
-    height: 50px;
     background-color: green;
 }
 
 #down {
-    width: 50px;
-    height: 50px;
-    background-color: red;    
+    background-color: red;
 }
 
-#selector {
-    width: 420px;
-    height: 350px;
-    margin: 40px;
-}
-tr {
-    display: flex;
-}
-td {
-    width: 48px;
+#floors {
+    width: 280px;
+    height: 180px;
+    z-index: 2;
+    margin-left: 20px;
 }
 
-button {
-    width: 100px;
-    height: 100px;
-    border: 4px solid black;
-    border-radius: 50px;
-    background-color: white;
-    color: black;
+.button {
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid black;
+    border-radius: 60%;
+    padding: 15px;
+    margin: 10px;
+    display: block;
 }
 
-#floor_3 {
-    position: relative;
+#third {
+    float: left;
+    margin-right: 60px;
 }
 
-#floor_4 {
-    position: relative;
+#tfirst {
+    float: left;
+    margin-right: 60px;
+}
+#fourth {
+    float: right;
+    margin-right: 0px;
 }
 
-#floor_1 {
-    position: relative;
-}
-
-#floor_2 {
-    position: relative;
+#second {
+    float: right;
+    margin-right: 0px;
 }
