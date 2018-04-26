@@ -16,9 +16,9 @@ body {
 
 #display {
     background-color: black;
-    width: 300px;
+    width: 280px;
     height: 200px;
-    margin: 4px;
+    margin: 16px;
     padding: 17px;
     z-index: 2;
     position: relative;
@@ -27,7 +27,8 @@ body {
 #floor-number {
     color: white;
     font-size: 140px;
-    float: left;
+    position: absolute;
+    margin: -6px 17px 10px 14px; 
     z-index: 3;
     padding: 20px;
 }
@@ -44,10 +45,14 @@ body {
 
 #up {
     background-color: green;
+    position: absolute;
+    margin: 16px 79px 96px 185px;
 }
 
 #down {
     background-color: red;
+    position: absolute;
+    margin: 110px 10px 10px 185px;
 }
 
 #floors {
@@ -57,34 +62,34 @@ body {
     margin-left: 20px;
 }
 
-.button {
-    background-color: #fff;
+button {
+    background-color: rgb(207, 231, 247);
     text-align: center;
     font-size: 30px;
-    width: 40px;
-    height: 40px;
-    border: 5px solid black;
-    border-radius: 60%;
+    width: 80px;
+    height: 80px;
+    border: 4px solid rgb(37, 36, 36);
+    border-radius: 50%;
     padding: 15px;
     margin: 10px;
     display: block;
 }
 
 #third {
-    float: left;
-    margin-right: 60px;
+    position: absolute;
+    margin: 4px 79px 96px 33px;
 }
 
-#tfirst {
-    float: left;
-    margin-right: 60px;
+#first {
+    position: absolute;
+    margin: 94px 79px 96px 33px;
 }
 #fourth {
-    float: right;
-    margin-right: 0px;
+    position: absolute;
+    margin: 4px 79px 96px 190px;
 }
 
 #second {
-    float: right;
-    margin-right: 0px;
+    position: absolute;
+    margin: 94px 79px 96px 190px;
 }
